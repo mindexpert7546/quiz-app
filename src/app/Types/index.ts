@@ -20,13 +20,14 @@ export interface Option{
 }
 
 export interface quizResult{
-    id:number,
-    name:string,
-    score:number,
-    percentage:number,
-    correct:number,
-    inCorrect:number,
-    unAttempt:number,
-    response:{questionId:number,answerOptionId:number}[]
+    id?:number,
+    quizId:number
+    name?:string,
+    score?:number,
+    percentage?:number,
+    correct?:number,
+    inCorrect?:number,
+    unAttempt?:number,
+    response?:{questionId:number,answerOptionId:String}[]
 
 }

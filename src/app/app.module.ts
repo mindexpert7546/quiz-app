@@ -3,6 +3,8 @@ import { BrowserModule } from '@angular/platform-browser';
 import {MatInputModule} from '@angular/material/input';
 import {MatButtonModule} from '@angular/material/button';
 import { FormsModule } from '@angular/forms';
+import { MatRadioModule } from '@angular/material/radio';
+
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -27,7 +29,8 @@ import { HttpClientModule } from '@angular/common/http';
     HttpClientModule,
     MatInputModule,
     MatButtonModule,
-    FormsModule
+    FormsModule,
+    MatRadioModule
   ],
   providers: [
     provideAnimationsAsync()
